@@ -91,3 +91,6 @@ sanPham1.forEach((item, index) => {
   sp2+= `${item} va ${index}`;
   console.log(sp2);
 });
+
+const hello = () => {return "Hello vercal"};
+console.log(hello());
